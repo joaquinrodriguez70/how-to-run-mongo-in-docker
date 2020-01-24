@@ -1,7 +1,7 @@
 docker pull mongo
 
 
-docker run -d -p 27017:27017  -v /Users/joaquin/Develop/docker-mongo/data:/data/db --name mongodb mongo
+docker run -d -p 27017:27017  -v /localdirectory/data:/data/db --name mongodb mongo
 
 como arranco como demonio, no se detiene cuando se cierra la terminal
 
